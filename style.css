@@ -1,0 +1,173 @@
+ /* Reset margins and paddings */
+ html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    background-color: #f0f8ff;
+}
+
+/* Header section with image background */
+header {
+    background-image: url('https://i.pinimg.com/originals/e7/37/04/e7370483c8991773b3c9c8e5cb658479.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    position: relative;
+}
+
+/* Center the heading on the image */
+header h1 {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    font-size: 3rem;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+}
+
+/* Navigation Bar styling */
+.navbar {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    display: flex; 
+    background-color: #19aedb; 
+    padding-left: 200px; 
+    padding-right: 200px; 
+    justify-content: space-between;
+    align-items: center; 
+    font-weight: bold;
+}
+
+/* Navbar links */
+.navbar a {
+    color: white; 
+    text-decoration: none; 
+    padding: 10px 15px;
+    transition: background-color 0.3s; 
+}
+
+/* Change background color on hover */
+.navbar a:hover {
+    background-color: #046bbe; /* Background color on hover */
+}
+
+/* Navigation Bar styling */
+.navbar1 {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    display: flex; 
+    background-color: #19aedb; 
+    padding-left: 200px; 
+    padding-right: 200px; 
+    justify-content: space-between;
+    align-items: center; 
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Navbar links */
+.navbar1 a {
+    color: white; 
+    text-decoration: none; 
+    padding: 10px 15px;
+    transition: background-color 0.3s; 
+}
+
+/* Change background color on hover */
+.navbar1 a:hover {
+    background-color: #046bbe; /* Background color on hover */
+}
+
+.title-bar{
+    background-color: #4CAF50;
+    text-align: center;
+    padding: 10px 0;
+}   
+
+.title-bar{
+    color: white;
+    text-decoration: none;
+    font-size: 1.8rem;
+    transition: background-color 0.3s;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+    background-color: #19aedb;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+.about-item-icon{
+    font-size: 70px;
+    color: #19aedb;
+    text-align: center;
+}
+
+.about-item-text{
+    text-indent: 50px;
+}
+
+.about-list{
+    list-style: none;
+}
+
+section{
+    margin: 20px auto;
+    width: 80%;
+    text-align: left;
+}
+
+/* footer Bar styling */
+footer{
+    margin-top: 20px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.row{
+    margin: 20px auto;
+    width: 80%;
+    text-align: left;
+}
+
+.image-container {
+    position: relative; /* Position relative to contain the overlay */
+    overflow: hidden; /* Hide overflow for zoom effect */
+}
+
+.image-container img {
+    transition: transform 0.5s ease; /* Smooth zoom effect */
+}
+
+.image-container:hover img {
+    transform: scale(1.1);
+}
+
+.overlay {
+    position: absolute; /* Position overlay */
+    top: 0; /* Align to the top */
+    left: 0; /* Align to the left */
+    right: 0; /* Align to the right */
+    bottom: 0; /* Align to the bottom */
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    color: white; /* Text color */
+    display: flex; /* Flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    opacity: 0; /* Start hidden */
+    transition: opacity 0.5s ease; /* Smooth transition */
+}
+
+.image-container:hover .overlay {
+    opacity: 1; /* Show overlay on hover */
+}
+
+footer{
+    margin-top: 20px;
+    font-size: 12px;
+    text-align: center;
+}
